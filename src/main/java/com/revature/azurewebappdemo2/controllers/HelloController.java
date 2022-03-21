@@ -10,5 +10,14 @@ public class HelloController {
     public String hello(){
         return "Hello from Spring Boot";
     }
-    
+
+    @GetMapping("/")
+    public String test(){
+        return "Testing...";
+    }
+
+    @GetMapping("/secret")
+    public String secret(){
+        return "You're not supposed to be here."
+    }
 }
