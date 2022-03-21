@@ -18,6 +18,6 @@ public class HelloController {
 
     @GetMapping("/secret")
     public String secret(){
-        return "You're not supposed to be here."
+        return "You're not supposed to be here.";
     }
 }
